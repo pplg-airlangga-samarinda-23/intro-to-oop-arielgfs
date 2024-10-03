@@ -5,12 +5,12 @@ class PersegiPanjang
     public $panjang;
     public $lebar;
 
-    // // deklarasikan metode konstruktor
-    // public function __construct($panjang, $lebar)
-    // {
-    //     $this->panjang=$panjang;
-    //     $this->lebar=$lebar;
-    // }
+    // deklarasikan metode konstruktor
+    public function __construct($panjang, $lebar)
+    {
+        $this->panjang=$panjang;
+        $this->lebar=$lebar;
+    }
 
     // deklarasikan metode mutator dan asesor
 
